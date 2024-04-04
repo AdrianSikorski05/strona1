@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Strona w Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top fade-in">
+        <div class="container-fluid ">
+            <a class="navbar-brand m-0 " href="">
+                <img class="logo rotate" src="logo/logo.png" alt="Logo" style="height: 9vh;">
+
+
+                <span class="text-warning fs-3 fw-bold">ALFA</span>
+
+                <span class="fs-4 fw-bold">-BET</span>
+
+
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse fs-4 " id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+                    <li class="nav-item mx-2 jump">
+                        <a class="nav-link active" aria-current="page" href="#">Strona Główna</a>
+                    </li>
+                    <li class="nav-item mx-2 jump">
+                        <a class="nav-link active" href="#Onas">O nas</a>
+                    </li>
+
+                    <li class="nav-item mx-2 jump">
+                        <a class="nav-link active " href="#Oferta">Oferta</a>
+                    </li>
+
+                    <li class="nav-item mx-2 jump">
+                        <a class="nav-link active" href="#kontakt">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="carouselExampleAutoplaying" class="carousel slide m-2" data-bs-ride="carousel fade-in">
+        <div class="carousel-inner" style="margin-top: 12vh;">
+            <div class="carousel-item active">
+                <img src="photos/1.jpg" class="d-block w-100" alt="1">
+            </div>
+            <div class="carousel-item">
+                <img src="photos/2.jpg" class="d-block w-100" alt="2">
+            </div>
+            <div class="carousel-item">
+                <img src="photos/3.jpeg" class="d-block w-100" alt="3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container-fluid fade-in">
+        <div class="row bg-light ">
+            <span class=" col-12 text-secondary fs-3 p-3  text-center ">Szukasz solidnej firmy do realizacji
+                zamówienia?
+                <a class=" btn btn-warning text-center fs-3 text-secondary mx-5 rounded-5 px-5"
+                    href="#Oferta">Oferta</a>
+            </span>
+
+
+        </div>
+    </div>
+
+    <div class="container-fluid p-0 m-0 fade-in bg-dark d-flex align-items-center justify-content-center"
+        style="height: 18vh;">
+        <div class="row">
+            <div class="col-12">
+                <span class="m-0 p-0 text-dark responsive-text highlighted-text" style="font-size: 8vw;">ALFA~BET
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section class="fade-in">
+        <div class="container-fluid bg-light ">
+            <div class="row ">
+                <p id="Onas" class="col-12 text-center fs-1 m-0 p-3 fw-bold"> <i
+                        class="bi bi-book mx-4 text-warning"></i>O nas</p>
+            </div>
+            <div class="container">
+                <hr class="my-4">
+
+                <div class="row">
+
+                    <div class="col-12 col-lg-6 col-xxl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Firma <span class="text-warning ">ALFA</span>-BET betoniarska
+                                </h5>
+                                <h6 class="card-subtitle mb-2 text-body-secondary">Usługi betoniarsko/<span
+                                        class="text-warning">przewozowe.</span></h6>
+
+                                <p class="card-text"><i class="bi bi-truck text-warning"></i>
+                                    Przedsiębiorstwo "ALFA-BET" rozpoczęło działalność
+                                    w 1973 roku.
+                                    Firma nasza znana jest na rynku budowlanym z wysokiej
+                                    jakości produkowanych prefabrykatów. Jesteśmy producentem
+                                    elementów betonowych, ściennych, stropowych, drogowych,
+                                    jak również betonu towarowego.
+                                </p>
+
+                                <p class="card-text"><i class="bi bi-truck text-warning"> </i> Jesteśmy
+                                    dynamicznie
+                                    rozwijającą się firmą betoniarską,
+                                    która od lat dostarcza wysokiej jakości rozwiązania betonowe dla różnorodnych
+                                    projektów budowlanych. Nasza firma specjalizuje się w produkcji i dostawie betonu w
+                                    najwyższych standardach jakościowych, zgodnie z indywidualnymi potrzebami i
+                                    wymaganiami
+                                    naszych klientów.
+                                </p>
+                                <p class="card-text">
+                                    <i class="bi bi-truck text-warning"></i> Nasza flota nowoczesnych mieszalników
+                                    betonu
+                                    oraz
+                                    profesjonalny
+                                    zespół doświadczonych
+                                    operatorów gwarantują terminowe i skuteczne dostawy betonu na plac budowy. Dzięki
+                                    naszej
+                                    zaawansowanej technologii i ciągłemu doskonaleniu procesów produkcyjnych, możemy
+                                    zapewnić
+                                    beton o doskonałej wytrzymałości, trwałości i konsystencji.
+                                </p>
+                                <p class="card-text">
+                                    <i class="bi bi-truck text-warning"> </i> Jesteśmy dumni z naszych osiągnięć i
+                                    sukcesów,
+                                    ale
+                                    zawsze
+                                    dążymy do doskonałości i ciągłego
+                                    doskonalenia naszych usług. Dlatego też stale inwestujemy w rozwój naszej firmy,
+                                    szkoląc
+                                    naszych pracowników i modernizując naszą infrastrukturę.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class=" col-12 col-lg-6 col-xxl-6">
+
+                        <img src="photos/pojazd.png" class="img-fluid img-thumbnail" alt="pojazd">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container-fluid p-0 m-0 fade-in bg-dark d-flex align-items-center justify-content-center"
+        style="height: 18vh;">
+        <div class="row">
+            <div class="col-12">
+                <span class="m-0 p-0 text-dark responsive-text highlighted-text" style="font-size: 8vw;">ALFA~BET
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="fade-in">
+        <div class="container-fluid  bg-light ">
+            <div id="row">
+                <div class="col-12 ">
+
+                    <p id="Oferta" class="fs-1 text-center p-4   fw-bold"><i class="bi bi-cart mx-2 text-warning"></i>
+                        Oferta</p>
+                </div>
+                <div class="card-group m-5">
+                    <div class="card ">
+                        <img src="photos/pustak-1.jpg" class="card-img-top " alt="...">
+                        <div class="card-body ">
+                            <h5 class="card-title">stropy teriva</h5>
+                            <p class="card-text">
+                                keramzytowe
+                                żużlo-betonowe</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="photos/pustak-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">pustaki alfa</h5>
+                            <p class="card-text">
+                                ścienne, keramzytowe
+                                żużlo-betonowe
+                            </p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="photos/pustak-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">bloczki betonowe</h5>
+                            <p class="card-text">
+                                M6
+                                M5</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="photos/pustak-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">nadproża betonowe</h5>
+                            <p class="card-text">
+                                ....
+                                ....
+                            </p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="photos/pustak-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> beton towarowy</h5>
+                            <p class="card-text">
+                                ....
+                                ....
+                            </p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="photos/pojazd.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> USŁUGI TRANSPORTOWE</h5>
+                            <p class="card-text">
+                                samochód wywrotka samowyładowczy - krajowy
+                            </p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="kontakt" class="footer bg-dark text-light py-5 fade-in">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="text-warning">Kontakt</h5>
+                    <p>
+                        P.P.H.U. "ALFA-BET"<br>
+                        Adres: ul. Pawłowo 42, 62-250 Czerniejewo<br>
+                        Telefon: +48 123 456 789<br>
+                        Email: kontakt@example.com <br>
+                        NIP: 9999999999
+                    </p>
+                    <div class="container-fluid ">
+                        <div class="row align-items-center justify-content-center">
+
+                            <div class="col-md-2 col-2 p-0">
+                                <img class="logo" src="logo/logo.png" alt="Logo" style="height: 4rem">
+
+                            </div>
+
+                            <div class="col-md-2 col-2  p-0  rotateIcon text-center"><a href="#"><i
+                                        class=" bi-facebook fs-2 text-light "></i></a>
+                            </div>
+
+
+                            <div class="col-md-2 col-2  p-0 rotateIcon text-center"><a href="#"><i
+                                        class=" bi-instagram fs-2 text-light"></i></a></div>
+
+                            <div class="col-md-2 col-2 p-0 rotateIcon text-center"><a href="#"><i
+                                        class=" bi-messenger fs-2 text-light"></i></a></div>
+
+                            <div class="col-md-2 col-2 p-0  rotateIcon text-center"><a href="#"><i
+                                        class=" bi-twitter-x fs-2 text-light"></i></a></div>
+
+                            <div class="col-md-2 col-2 p-0 rotateIcon text-center"><a href="#"><i
+                                        class=" bi-whatsapp fs-2 text-light"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class=" col-md-6">
+                    <h5 class="text-warning">Zostaw wiadomość</h5>
+
+                    <form class="row g-3 was-validated" action="https://formsubmit.co/adi52@tlen.pl" method="POST">
+                        <div class="col-md-4">
+                            <label for="validationServer01" class="form-label">Imię i Nazwisko/Firma</label>
+                            <input type="text" class="form-control is-valid" id="validationServer01" required>
+                            <div class="invalid-feedback">
+                                Wpisz imię i nazwisko.
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationServerUsername" class="form-label">Email</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                                <input type="text" class="form-control is-valid" id="validationServerUsername"
+                                    aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                                <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                                    Wpisz swój email.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="validationServer03" class="form-label">telefon</label>
+                            <input type="text" class="form-control is-valid" id="validationServer03"
+                                aria-describedby="validationServer03Feedback" required>
+                            <div id="validationServer03Feedback" class="invalid-feedback">
+                                Wpisz twój telefon.
+                            </div>
+                        </div>
+
+                        <div class="mb-12">
+                            <label for="validationTextarea" class="form-label">Textarea</label>
+                            <textarea class="form-control" id="validationTextarea"
+                                placeholder="Required example textarea" required></textarea>
+                            <div class="invalid-feedback">
+                                Wpisz wiadomość.
+                            </div>
+                        </div>
+
+
+                        <div class="col-12">
+                            <button class="btn btn-warning" type="submit">Wyślij</button>
+                        </div>
+                        <input type="hidden" name="_next" value="ThankYou.html">
+                    </form>
+                </div>
+
+
+
+
+
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <h5 class="text-warning">Lokalizacja</h5>
+                    <!-- Tutaj wklej kod do osadzenia mapy Google -->
+                    <!-- Na przykład: -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d511.39136699372574!2d17.475966105900305!3d52.43202677807908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4704ed4befeb9023%3A0xa94c0b52eb2a5eec!2sKraszewskiego%2033%2C%2062-250%20Czerniejewo!5e0!3m2!1spl!2spl!4v1712078984346!5m2!1spl!2spl"
+                                        allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const elements = document.querySelectorAll('.fade-in');
+            const threshold = 0.2; // Threshold for intersection observer
+
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.intersectionRatio > threshold) {
+                        entry.target.style.opacity = 1;
+                    }
+                });
+            }, {
+                threshold: threshold
+            });
+
+            elements.forEach(element => {
+                observer.observe(element);
+            });
+        });
+    </script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
