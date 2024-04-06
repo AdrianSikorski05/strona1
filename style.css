@@ -1,0 +1,78 @@
+iframe {
+    height: 300px;
+    width: 100%;
+}
+
+
+@keyframes rotate360 {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+
+
+}
+
+.rotate:hover {
+    animation: rotate360 2s linear infinite;
+}
+
+
+@keyframes rotateIcon {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+
+
+
+}
+
+.rotateIcon:hover {
+    animation: rotateIcon 0.3s linear forwards;
+}
+
+
+
+
+@keyframes jump {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+        transform: translate(0px, -5px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+.jump:hover {
+    animation: jump 0.5s ease-in-out;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.highlighted-text {
+    text-shadow:
+        -1px -1px 0 #db7806,
+        1px -1px 0 #db7806,
+        -1px 1px 0 #db7806,
+        1px 1px 0 #db7806;
+    opacity: 0.4;
+    font-family: 'Nunito', sans-serif;
+
+    /* Kolor tekstu */
+}
